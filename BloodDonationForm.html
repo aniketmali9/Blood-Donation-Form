@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Form</title>
+    <link rel="stylesheet" href="BloodDonationForm.css">
+    
+</head>
+<body>
+    <h1>Blood Donation Form</h1>
+    <form class="container" id="form" action="/">
+        <h3>Use Record List</h3>
+        <p>Username</p>
+        <input type="text" id="username" placeholder="username">
+        <div class="error"></div>
+        <p class="usererror"></p>
+        <p>Email address</p>
+        <input type="email" id="email" placeholder="abc@gmail.com">
+        <div class="error"></div>
+        <p>Select your blood group</p>
+        <select class="select">
+            <option value="A+">A+</option>
+            <option value="B+">B+</option>
+            <option value="O+">O+</option>
+            <option value="AB+">AB+</option>
+            <option value="A+">A-</option>
+            <option value="B+">B-</option>
+            <option value="O+">O-</option>
+            <option value="AB+">AB-</option>
+        </select>
+        <p>Enter Your Address</p>
+        <input type="text" id="address">
+        <p>Enter Your phone number</p>
+        <input type="text" id="phone">
+        <div class="error"></div>
+        <p>Any other details regarding your medical health</p>
+        <textarea name="textarea" id="details" cols="40" rows="4"></textarea> <br>
+        <div class="btn">
+        <button>Submit</button>
+        </div>
+        
+
+    </form>
+    <script src="BloodDonationForm.js"></script>
+</body>
+</html>
